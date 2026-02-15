@@ -43,7 +43,7 @@ Before running this application, make sure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/anuragco/link-management-service.git
 cd url-shortner/Backend
 ```
 
