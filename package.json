@@ -1,0 +1,26 @@
+{
+  "name": "urlshortner",
+  "version": "1.0.0",
+  "description": "A modern, fast, and secure URL shortening service built with Node.js, Express, MongoDB, and EJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["url-shortener", "link-shortener", "nodejs", "express", "mongodb"],
+  "author": "Anurag",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "mongoose": "^9.2.1",
+    "shortid": "^2.2.17"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
