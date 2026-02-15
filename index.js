@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use(helmet());
 
-app.use(req, res, next => {
+app.use((req, res, next) => {
    const internalKey = req.headers['x-internal-key'];
    if(!internalKey || internalKey !== process.env.INTERNAL_API_KEY) {
         return res.status(403).json({ error: 'Direct access denied' });
