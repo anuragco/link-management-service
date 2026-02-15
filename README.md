@@ -5,6 +5,15 @@ A modern, fast, and secure URL shortening service built with Node.js, Express, M
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node](https://img.shields.io/badge/node-%3E%3D22.0.0-brightgreen.svg)
 ![Docker](https://img.shields.io/badge/docker-supported-blue.svg)
+![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red.svg)
+![Security](https://img.shields.io/badge/security-helmet-blueviolet.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
+---
+
+📚 **[Documentation](README.md)** | 🤝 **[Contributing](CONTRIBUTING.md)** | 🔒 **[Security](SECURITY.md)** | 🐳 **[Docker Guide](DOCKER.md)** | 📜 **[License](LICENSE)**
+
+---
 
 ## ✨ Features
 
@@ -257,6 +266,9 @@ GET /
 - **Input Validation** - Server and client-side validation
 - **URL Sanitization** - Prevents malicious URLs
 - **Environment Variables** - Sensitive data kept secure
+- **Non-root Docker User** - Container runs with limited privileges
+
+> **Security Issues?** Please report vulnerabilities by opening an issue. We take security seriously!
 
 ## 🛠️ Development
 
@@ -333,13 +345,13 @@ PORT=3000
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
+We welcome contributions from the community! Whether it's bug reports, feature requests, or code contributions - all are appreciated.
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## 🔐 Security
+
+Security is a top priority. If you discover a security vulnerability, please review our [Security Policy](SECURITY.md) for responsible disclosure guidelines.
 
 ## 📝 License
 
