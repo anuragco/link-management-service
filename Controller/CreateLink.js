@@ -2,7 +2,7 @@ const { URL } = require("../model/Shortner");
 const shortid = require("shortid");
 
 const CreateLink = async (req, res) => {
-  const { USerGivenUrl } = req.body;
+  const { USerGivenUrl } = req.body || {};
   
   if (!USerGivenUrl || USerGivenUrl.trim() === '') {
     return res.redirect('/?error=' + encodeURIComponent('Please provide a valid URL'));
